@@ -20,7 +20,7 @@ ollama pull dagbs/qwen2.5-coder-1.5b-instruct-abliterated
 # 拉取 bge-m3
 ollama pull bge-m3
 
-ollama pull dengcao/Qwen3-Reranker-8B
+ollama pull dengcao/Qwen3-Reranker-8B:Q3_K_M
 
 # https://ollama.com/library/gemma2:2b
 # ollama pull gemma2:9b
