@@ -3,7 +3,7 @@ services:
   ollama:
     image: ollama/ollama:0.4.7
     volumes:
-      - ollama:/root/.ollama
+      - ./ollama-data:/root/.ollama
       - ./entrypoint.sh:/entrypoint.sh
     ports:
       - "51434:11434"
@@ -16,6 +16,3 @@ services:
           devices:
             - driver: nvidia
               capabilities: [gpu]
-
-volumes:
-  ollama:
