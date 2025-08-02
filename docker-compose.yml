@@ -1,0 +1,21 @@
+
+services:
+  ollama:
+    image: ollama/ollama:0.4.7
+    volumes:
+      - ollama:/root/.ollama
+      - ./entrypoint.sh:/entrypoint.sh
+    ports:
+      - "51434:11434"
+    # restart: on-failure
+    privileged: true
+    entrypoint: ["/usr/bin/bash", "/entrypoint.sh"]
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: [gpu]
+
+volumes:
+  ollama:
