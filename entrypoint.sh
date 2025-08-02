@@ -17,6 +17,11 @@ ollama pull DC1LEX/nomic-embed-text-v1.5-multimodal
 echo "pull Qwen/Qwen2.5-Coder-1.5B -> dagbs/qwen2.5-coder-1.5b-instruct-abliterated"
 ollama pull dagbs/qwen2.5-coder-1.5b-instruct-abliterated
 
+# 拉取 bge-m3
+ollama pull bge-m3
+
+ollama pull dengcao/Qwen3-Reranker-8B
+
 # https://ollama.com/library/gemma2:2b
 # ollama pull gemma2:9b
 
