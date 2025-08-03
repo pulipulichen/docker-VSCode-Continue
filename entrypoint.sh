@@ -17,6 +17,9 @@ ollama pull DC1LEX/nomic-embed-text-v1.5-multimodal
 echo "pull Qwen/Qwen2.5-Coder-1.5B -> dagbs/qwen2.5-coder-1.5b-instruct-abliterated"
 ollama pull dagbs/qwen2.5-coder-1.5b-instruct-abliterated
 
+ollama pull qwen2.5-coder:32b
+ollama pull starcoder2:15b
+
 # 拉取 bge-m3
 ollama pull bge-m3
 
