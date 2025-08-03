@@ -33,6 +33,8 @@ ollama pull dengcao/Qwen3-Reranker-8B:Q3_K_M
 
 # =================================================================
 
+ollama list
+
 echo "Ollama is running"
 
 # Wait for Ollama process to finish.
