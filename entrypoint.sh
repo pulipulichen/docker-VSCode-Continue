@@ -20,6 +20,9 @@ ollama pull dagbs/qwen2.5-coder-1.5b-instruct-abliterated
 echo "qwen2.5-coder:32b"
 ollama pull qwen2.5-coder:32b
 
+echo "qwen2.5-coder:7b"
+ollama pull qwen2.5-coder:7b
+
 echo "starcoder2:15b"
 ollama pull starcoder2:15b
 
