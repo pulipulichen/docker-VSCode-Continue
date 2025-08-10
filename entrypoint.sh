@@ -8,23 +8,23 @@ pid=$!
 # Pause for Ollama to start.
 sleep 5
 
-echo "pull meta-llama/Meta-Llama-3.1-8B-Instruct -> linbeiJiang/Llama-3.1-8B-Instruct"
-ollama pull linbeiJiang/Llama-3.1-8B-Instruct
+# echo "pull meta-llama/Meta-Llama-3.1-8B-Instruct -> linbeiJiang/Llama-3.1-8B-Instruct"
+# ollama pull linbeiJiang/Llama-3.1-8B-Instruct
 
-echo "pull nomic-ai/nomic-embed-text-v1 -> DC1LEX/nomic-embed-text-v1.5-multimodal"
-ollama pull DC1LEX/nomic-embed-text-v1.5-multimodal
+# echo "pull nomic-ai/nomic-embed-text-v1 -> DC1LEX/nomic-embed-text-v1.5-multimodal"
+# ollama pull DC1LEX/nomic-embed-text-v1.5-multimodal
 
 echo "pull Qwen/Qwen2.5-Coder-1.5B -> dagbs/qwen2.5-coder-1.5b-instruct-abliterated"
 ollama pull dagbs/qwen2.5-coder-1.5b-instruct-abliterated
 
-echo "qwen2.5-coder:32b"
-ollama pull qwen2.5-coder:32b
+# echo "qwen2.5-coder:32b"
+# ollama pull qwen2.5-coder:32b
 
 echo "qwen2.5-coder:7b"
 ollama pull qwen2.5-coder:7b
 
-echo "starcoder2:15b"
-ollama pull starcoder2:15b
+# echo "starcoder2:15b"
+# ollama pull starcoder2:15b
 
 # 拉取 bge-m3
 echo "bge-m3"
@@ -38,6 +38,10 @@ ollama pull dengcao/Qwen3-Reranker-8B:Q3_K_M
 
 # https://ollama.com/library/gemma2:2b
 # ollama pull llama3.2-vision:11b
+
+# https://ollama.com/library/qwen3-coder
+echo "pull qwen3-coder"
+ollama pull qwen3-coder
 
 # =================================================================
 
